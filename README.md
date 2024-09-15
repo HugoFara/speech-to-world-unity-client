@@ -11,10 +11,12 @@ The idea of this project is to let  you access all the AI features from an appli
 
 [Short complete demo.webm](https://github.com/user-attachments/assets/b8a97c92-ae75-4732-95af-c4fb64345bb0)
 
-The project was initially developed at the [Fondation Campus Biotech Geneva](https://fcbg.ch/) ([GitHub](https://github.com/fcbg-hnp-vr/)),
-in collaboration with the [Laboratory of Cognitive Science](https://www.epfl.ch/labs/lnco/) (part of [EPLF](https://epfl.ch)).
-
 ## Installation
+
+> [!Important]
+> This is only the client,
+you need a running server to actually use the AI features!
+The repository to run the server can be found at: [VR-Environment-GenAI-Server](https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Server).
 
 The installation is simple, as we use standard Unity features.
 
@@ -23,13 +25,9 @@ The installation is simple, as we use standard Unity features.
 
 Most VR headsets compatible with OpenXR should work out of the box.
 
-- If the XR assets do not work, you can try to reinstall them from the [Package Manager](https://docs.unity3d.com/Manual/Packages.html) (Package manager → XR Interaction Toolkit → Samples → Starter Assets → Reimport).
-- For Windows Mixed Reality Headsets, you may need the MRTK plugins.
+If the XR assets do not work, you can try to reinstall them from the [Package Manager](https://docs.unity3d.com/Manual/Packages.html) (Package manager → XR Interaction Toolkit → Samples → Starter Assets → Reimport).
 
-> [!Important]
-> This is only the client,
-you need a running server to actually use the AI features!
-The repository to run the server can be found at: [VR-Environment-GenAI-Server](https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Server).
+For Windows Mixed Reality Headsets, you may need the MRTK plugins.
 
 ## Usage
 
@@ -98,11 +96,6 @@ It will generate a documentation under `docs/`.
 
 A local documentation can also be generated with ``docfx Documentation/docfx.json -t statictoc,custom_template``.
 
-### Skybox Import (legacy)
-
-This project allows for the import of custom skyboxes.
-The skybox is automatically imported into the scene when the player hits enter.
-
 ## Future developments
 
 The short term goal is to implement more features from the server, such as the terrain generation.
@@ -114,3 +107,6 @@ You can also find the project at the following locations :
 
 - Official public repository: <https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Unity>. This repository may not be maintained.
 - For the official public AI server: <https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Server>.
+
+The project was initially developed at the [Fondation Campus Biotech Geneva](https://fcbg.ch/) ([GitHub](https://github.com/fcbg-hnp-vr/)),
+in collaboration with the [Laboratory of Cognitive Science](https://www.epfl.ch/labs/lnco/) (part of [EPLF](https://epfl.ch)).
