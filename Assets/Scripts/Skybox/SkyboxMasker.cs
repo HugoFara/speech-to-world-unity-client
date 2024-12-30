@@ -89,7 +89,7 @@ namespace AiWorldGeneration.Skybox
         /// </summary>
         /// <param name="cartesianCoordinates">The Cartesian coordinates to be converted.</param>
         /// <returns>A Vector3 containing the calculated Spherical coordinates (radius, inclination, azimuth).</returns>
-        private Vector3 CartesianToSpherical(Vector3 cartesianCoordinates)
+        private static Vector3 CartesianToSpherical(Vector3 cartesianCoordinates)
         {
             Vector3 sphericalCoordinates = new(
                 // Calculate radius
@@ -111,7 +111,7 @@ namespace AiWorldGeneration.Skybox
         /// </summary>
         /// <param name="sphericalCoordinates">Spherical coordinates in format (radius, altitude, azimuth)</param>
         /// <returns>A new Vector2 containing the calculated U and V coordinates</returns>
-        private Vector2 SphericalToUV(Vector3 sphericalCoordinates)
+        private static Vector2 SphericalToUV(Vector3 sphericalCoordinates)
         {
             return new Vector2(
                 (sphericalCoordinates[2] / Mathf.PI + 1) / 2,
@@ -231,7 +231,7 @@ namespace AiWorldGeneration.Skybox
         /// </summary>
         /// <param name="inputTexture">The texture to be flipped.</param>
         /// <returns>A new texture with the input texture flipped horizontally.</returns>
-        public Texture2D FlipTextureHorizontally(Texture2D inputTexture)
+        public static Texture2D FlipTextureHorizontally(Texture2D inputTexture)
         {
             Texture2D flippedTexture = new(inputTexture.width, inputTexture.height, inputTexture.format, false);
             for (int x = 0; x < inputTexture.width; x++)

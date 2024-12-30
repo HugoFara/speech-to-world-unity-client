@@ -84,7 +84,7 @@ namespace AiWorldGeneration.TCP
         /// <param name="clientWorker">The ClientWorker that received the response.</param>
         /// <param name="response">The response object containing the type of response and its data.</param>
         /// <returns>true if the response terminates the task.</returns>
-        bool HandleResponse(ClientWorker clientWorker, SerializableResponse response)
+        static bool HandleResponse(ClientWorker clientWorker, SerializableResponse response)
         {
             if (response.type == "completion")
             {
@@ -143,7 +143,7 @@ namespace AiWorldGeneration.TCP
         /// </summary>
         /// <param name="responses">The responses received from the server, in the form of a string containing multiple JSON responses separated by "}{"</param>
         /// <returns>An array of strings, each representing a single response received from the server.</returns>
-        private string[] ParseResponses(string responses)
+        private static string[] ParseResponses(string responses)
         {
             // Works because Unity JSON format subset does not have nested JSON structures
             var jsonResponses = responses.Split("}{");
@@ -181,7 +181,7 @@ namespace AiWorldGeneration.TCP
         /// </summary>
         /// <param name="charsEnumerable">The sequence of bytes to check for the stop character sequence.</param>
         /// <returns>True if the data ends with the stop character sequence, otherwise false.</returns>
-        bool EndsWithStop(IEnumerable<byte> charsEnumerable)
+        static bool EndsWithStop(IEnumerable<byte> charsEnumerable)
         {
             byte[] elems = charsEnumerable.Reverse().Take(2).Reverse().ToArray();
             var chars = Encoding.UTF8.GetChars(elems);

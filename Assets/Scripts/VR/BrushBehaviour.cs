@@ -50,7 +50,7 @@ namespace AiWorldGeneration.VR
             if (grabber != null)
             {
                 float distance = Vector3.Distance(grabber.position, transform.position);
-                if (distance == 0f)
+                if (distance < 0.01f)
                 {
                     skyboxMasker.SetBrushSize(skyboxMasker.MaxStrokeRadius);
                 }

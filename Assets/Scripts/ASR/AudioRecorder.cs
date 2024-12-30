@@ -73,7 +73,7 @@ namespace AiWorldGeneration.ASR
         /// <param name="frequency">Frequency of the sample.</param>
         /// <param name="channels">Clip channels</param>
         /// <returns></returns>
-        byte[] EncodeAsWAV(float[] samples, int frequency, int channels)
+        static byte[] EncodeAsWAV(float[] samples, int frequency, int channels)
         {
             using var memoryStream = new MemoryStream(44 + samples.Length * 2);
             using (var writer = new BinaryWriter(memoryStream))

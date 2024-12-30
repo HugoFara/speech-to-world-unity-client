@@ -18,7 +18,7 @@ namespace AiWorldGeneration.VR
         /// Detects whether we should start on desktop mode as no VR device is connected.
         /// </summary>
         /// <returns></returns>
-        bool DesktopPlay()
+        static bool DesktopPlay()
         {
             // Start by checking if an XR equipement is connected
             var xrSettings = XRGeneralSettings.Instance;

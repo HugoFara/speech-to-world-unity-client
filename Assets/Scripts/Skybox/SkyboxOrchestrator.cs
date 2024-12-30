@@ -98,7 +98,7 @@ namespace AiWorldGeneration.Skybox
         /// </summary>
         /// <param name="filePath">Image file to paste.</param>
         /// <param name="outputTexture">Texture to paste unto.</param>
-        void ApplyFileOnTexture(string filePath, Texture2D outputTexture)
+        static void ApplyFileOnTexture(string filePath, Texture2D outputTexture)
         {
             byte[] imageData = System.IO.File.ReadAllBytes(filePath);
             outputTexture.LoadImage(imageData);

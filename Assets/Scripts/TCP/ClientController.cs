@@ -25,7 +25,7 @@ namespace AiWorldGeneration.TCP
         /// </summary>
         /// <param name="hex">The hexadecimal string to be converted.</param>
         /// <returns>A byte array representation of the hexadecimal string.</returns>
-        public byte[] ByteArrayFromHexString(string hex)
+        public static byte[] ByteArrayFromHexString(string hex)
         {
             byte[] bytes = new byte[hex.Length / 2];
             for (int i = 0; i < bytes.Length; i++)
