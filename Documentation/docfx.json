@@ -20,8 +20,8 @@
     ],
     "build": {
         "globalMetadata": {
-            "_appTitle": "AIWorldGeneration VR",
-            "_appFooter": "AIWorldGeneration VR",
+            "_appTitle": "Speech-To-World Unity",
+            "_appFooter": "Speech-To-World Unity",
             "_enableSearch": true
         },
         "content": [
@@ -63,7 +63,7 @@
             }
         ],
         "sitemap": {
-            "baseUrl": "https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/",
+            "baseUrl": "https://hugofara.github.io/speech-to-world-unity-client//",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {
