@@ -109,4 +109,4 @@ You can also find the project at the following locations :
 - For the official public AI server: <https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Server>.
 
 The project was initially developed at the [Fondation Campus Biotech Geneva](https://fcbg.ch/) ([GitHub](https://github.com/fcbg-hnp-vr/)),
-in collaboration with the [Laboratory of Cognitive Science](https://www.epfl.ch/labs/lnco/) (part of [EPLF](https://epfl.ch)).
+in collaboration with the [Laboratory of Cognitive Neuroscience](https://www.epfl.ch/labs/lnco/) (part of [EPLF](https://epfl.ch)).
