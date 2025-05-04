@@ -5,10 +5,12 @@ if $CURRENT_BRANCH != main; then
 fi 
 echo "Switching branch to gh-pages, old was $CURRENT_BRANCH"
 git switch gh-pages
-git merge 
+git merge main
 cp README.md Documentation/index.md
 docfx Documentation/docfx.json && \
 rm Documentation/index.md
 rm -rf Documentation/api
 echo "Documentation ready"
+git add docs
+git commit -m "docs: Regenerating documentation"
 echo "Don't forget to push and go back to $CURRENT_BRANCH"
