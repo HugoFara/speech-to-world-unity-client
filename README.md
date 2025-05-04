@@ -83,7 +83,7 @@ All the following scenes are in the ``Assets/Scenes`` folder.
 
 ## Documentation
 
-We provide an [online documentation](https://hugofara.github.io/Speech-to-World /), you can also access it in the `docs/` folder.
+We provide an [online documentation](https://hugofara.github.io/speech-to-world-unity-client/), you can also access it in the `docs/` folder of the `gh-pages` branch.
 
 The documentation is generated with DocFX, you can regenerate it with [DocFX](https://github.com/dotnet/docfx).
 
