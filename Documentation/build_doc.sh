@@ -13,4 +13,5 @@ rm -rf Documentation/api
 echo "Documentation ready"
 git add docs
 git commit -m "docs: Regenerating documentation"
-echo "Don't forget to push and go back to $CURRENT_BRANCH"
+git push
+git switch $CURRENT_BRANCH
