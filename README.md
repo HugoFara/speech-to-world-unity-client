@@ -88,6 +88,9 @@ We provide an [online documentation](https://hugofara.github.io/Speech-to-World 
 The documentation is generated with DocFX, you can regenerate it with [DocFX](https://github.com/dotnet/docfx).
 
 ```bash
+./Documentation/build_doc.sh
+
+# Alternatively
 cp README.md Documentation/index.md
 docfx Documentation/docfx.json
 ```
