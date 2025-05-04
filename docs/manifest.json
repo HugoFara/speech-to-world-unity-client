@@ -1,0 +1,660 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://hugofara.github.io/speech-to-world-unity-client//",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://hugofara.github.io/speech-to-world-unity-client//",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "/home/h/Documents/dev/hu/speech-to-world/speech-to-world-unity-client/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.ASR.AudioRecorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.ASR.AudioRecorder.html",
+          "hash": "sMsKS1Htc/eUoopMnwBEurwtTG/PWy+oophJSU+326A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.ASR.SpeechInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.ASR.SpeechInteraction.html",
+          "hash": "xfb/ilTJMoeSSyMa16dNJ2miPg769pJz0h/mBMNahT0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.ASR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.ASR.html",
+          "hash": "p3VTDfGr8zs8tcCpG9tJD5cQ4AsWKSVsDiIzAGFVlLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.Desktop.FreeCameraMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.Desktop.FreeCameraMovement.html",
+          "hash": "SCGY4M6ztjrQ1d2usBjEHUENwyt27kXtcY5PQnesJR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.Desktop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.Desktop.html",
+          "hash": "oWf8Ikb5fQxXlwiEtc01HnjR+QJwcUHgsnjCMlvjmm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.EditionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.EditionMode.html",
+          "hash": "re1n1wKsr7zXn53B1ITPdiQd6cRg1cIDF+mwrnX6zvI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.InteractionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.InteractionManager.html",
+          "hash": "GCVt0OLgsnqYXoNeYfcuyYrKZd6r5LtFDaCyXJiAKHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.Skybox.SkyboxMasker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.Skybox.SkyboxMasker.html",
+          "hash": "D3o1+n41AXoWBbCXdpW74JgUT65jIH9LH2W4Id2QMaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.Skybox.SkyboxOrchestrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.Skybox.SkyboxOrchestrator.html",
+          "hash": "0A33ln9f9v27tXGFY2bRBCRIOt0wIvK1CMn1XzYTUQQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.Skybox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.Skybox.html",
+          "hash": "hCiTeTpY07n+f69DKxosBjkLWyFgfjYslPNhuo0+B3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.AsrQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.AsrQuery.html",
+          "hash": "tmPQr16RlOojFU+USDQS8As5HP/vp05Ti/2vgbIhlQU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.AsrResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.AsrResponse.html",
+          "hash": "KQ+qA0pKuJGKtVeJS5HEiYlJd7tyhmEj8Wpor4cwjtY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.BaseClientQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.BaseClientQuery.html",
+          "hash": "OpanXLRrzXK7LFG48wQdIS69aQ0z7QVu8oS+y0JJHT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.ClientController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.ClientController.html",
+          "hash": "ikFbBksUjtcKaHM7Eb8sEwLv8+1c1Egn+otP8rZHOok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.ClientWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.ClientWorker.html",
+          "hash": "EJtx77Fonnk7JIWDQG/X93x5eAk0UDvLI9XNXlRhVqg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.CompletionQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.CompletionQuery.html",
+          "hash": "txP/SxQU/QzQUriaFzHFjlF/7xGS3UAH+BH3BzePnd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.CompletionResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.CompletionResponse.html",
+          "hash": "nRqHKr/dV6hAfl0hFPZF953YkBaB952QPUqhWmh3mN0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.ExtendSkyboxQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.ExtendSkyboxQuery.html",
+          "hash": "9cCSp3LQ1uF4f625vspdBxLgT99+fF/D1efbdGzfCmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.ImageEditionQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.ImageEditionQuery.html",
+          "hash": "EjMgg6CkuKR6Cb26HB5I8WkZccnVBZLJWLH2g245WYI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.ImageResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.ImageResponse.html",
+          "hash": "GVewHntmB/umiQLBTZyO+jRUvJR/xlaGWMo73IBuJdo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.InpaintingQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.InpaintingQuery.html",
+          "hash": "mosgRhXWvHZD2LKE6SV7o3m6k8bvgbq34b64jfqN4S0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.JsonInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.JsonInterface.html",
+          "hash": "f426L9pW8e6/N1mzvxtLmTgK1SzuKEXfISzZJx4egfs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.LocalAsrQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.LocalAsrQuery.html",
+          "hash": "IEwMi9cSiBGT3o2bTFQILfM1QPfPlQsStF15LBMHvKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.LocalImageResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.LocalImageResponse.html",
+          "hash": "r47W7FJRI39bWlBBxLPMbGHhbYcxQ2pqqCme7+TxKQw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.LocalInpaintingQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.LocalInpaintingQuery.html",
+          "hash": "0Gt2DGCPkM80rGcYxSSxaEKLrSDaEfPhQXKOXx1BSfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.LocalInpaintingResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.LocalInpaintingResponse.html",
+          "hash": "SjHw/98vS4/boaXMqXpP6mFq2vOs0E1baXwyZNTsk9o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.LocalNewSkyboxQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.LocalNewSkyboxQuery.html",
+          "hash": "sM9bZuLsC++YAEAZ+XytVCInZqVPkvZ3YG9XtCf24TE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.NetworkCommunicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.NetworkCommunicator.html",
+          "hash": "B+KmAGdXZICaFojHDH5UQOrCt86Q3WnhpkMT0Z5f0NQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.NewSkyboxQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.NewSkyboxQuery.html",
+          "hash": "LRNk3pgFyst4Jnvtm1zEx4RqWGvmpdd0VmuL7YJhWn4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.PingQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.PingQuery.html",
+          "hash": "78f1f2WFx9TtEfLPGiIZyy7vQa5CTmSzccjlywreLGM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.PingResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.PingResponse.html",
+          "hash": "Y1XoMk4O1cjUcMMoIW/4ipIkjQ8zZPq/2jy1+OCbuG8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.RefineSkyboxQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.RefineSkyboxQuery.html",
+          "hash": "rX0J3hgE2tkVJnAGKgi3hQ66/MuPF0m8XJXeLreN/rQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.RemoveSeamQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.RemoveSeamQuery.html",
+          "hash": "metMGebE4MPBaXeLuzCSqjB0oRPr2q5UFk2ur9NSYyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.SerializableResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.SerializableResponse.html",
+          "hash": "0qUg7sVyRhvl0ZIYx0d5aQ/dz2v3jkeb5SsdQVN5Wys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.SerializableResponseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.SerializableResponseData.html",
+          "hash": "ZsjyqP5uhq6MEgXHl+1m7hTjGA35v6stAwlrkffiCbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.ServerInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.ServerInterface.html",
+          "hash": "m6G5OJHp+Uf54JtHoKVBPoOIf65zADsHJsyzLaIAiqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.TCP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.TCP.html",
+          "hash": "KuhHppoVNqSPUmXgtrrKVAU9Ji7P+uURdlipBR18tAQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.UIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.UIManager.html",
+          "hash": "39ecxjG7id3PKrt39+Dt/mZzZsFDvSkoU2VQT6s3oYs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.VR.BrushBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.VR.BrushBehaviour.html",
+          "hash": "L2FxPoIr7rNhzNqQB27KOTv5fGN8Vd/ERfWadYAdnyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.VR.XRDesktopActivation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.VR.XRDesktopActivation.html",
+          "hash": "XhdwmxAytfJkenoDPv5mjN8/Cus3W6XbTR6qCoGR+AQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.VR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.VR.html",
+          "hash": "0NKugeWRgrLYNzkEgyp69RF/eyfsZb9tATPsuqe4qEQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AiWorldGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AiWorldGeneration.html",
+          "hash": "S/Cd+DfMIq02DT3Bu0TfrA2AWUiuKAI9Zoxudka/GrM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "tWtf+MFUnGt5KV+aJYyrbQnPuQREgDkjl9hkYZiMy9o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "FIn0xrgDKwvwF2NQXLkO48Ko38fzcGxr7IiCjIIDxn4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/manual.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/manual.html",
+          "hash": "u/f5JqjC37qNxcTk67c1mkABJvrtjPgcaI+lJYz+saU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "kSohEnofHjS1+f0Jf8wCHOn7DofpmPh2mfPpBKKUL8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Main_view_VR.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Main_view_VR.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "IKp7zQMxK/Vxuqf7VBY0U6ue/Qi3ZsWIVkLaV6GprqM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 48,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
