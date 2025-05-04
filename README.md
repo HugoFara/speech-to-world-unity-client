@@ -9,7 +9,9 @@ You can use it for generating, modifying and exploring generated environments.
 It features two main scenes, one for desktop and one for virtual reality, that both let you explore new worlds.
 The idea of this project is to let  you access all the AI features from an application, reducing the interruptions in the creation process.
 
-[Short complete demo.webm](https://github.com/user-attachments/assets/b8a97c92-ae75-4732-95af-c4fb64345bb0)
+![Technical demo.mp4](https://www.hugofara.net/wp-content/uploads/2025/02/Speech-to-World-Render-Pre-Final.mp4)
+
+[View demo here](https://www.hugofara.net/wp-content/uploads/2025/02/Speech-to-World-Render-Pre-Final.mp4) if the above link does not work.
 
 ## Installation
 
